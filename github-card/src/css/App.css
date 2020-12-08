@@ -1,0 +1,24 @@
+@import-normalize;
+body {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.usercard {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+
+.followersinfo {
+    margin-left: 3em;
+    padding-left: 3em;
+    border-left: solid white 2px;
+}
+
+
+/*ignore lint warning*/
